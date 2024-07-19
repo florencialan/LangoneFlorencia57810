@@ -1,0 +1,19 @@
+{% extends "entidades/index.html" %}
+{% block contenido %}
+<style>
+  .center {
+    text-align: center;
+  }
+  .red-text {
+    color: red;
+  }
+</style>
+
+<div class="center">
+  <form method="post">
+    {% csrf_token %}
+    <h1 class="red-text">¡Has cerrado sesión!</h1>
+    <p>Gracias por visitar el sitio de Greeslyn Max. Has cerrado sesión exitosamente. Te esperamos pronto.</p>
+  </form>
+</div>
+{% endblock contenido %}

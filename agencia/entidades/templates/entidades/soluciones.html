@@ -1,0 +1,36 @@
+{% extends 'entidades/index.html' %}
+
+
+{% block titulo %}
+<h1 class="mb-5"> Soluciones </h1>  
+{% endblock titulo %}
+
+
+{% block contenido %}
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Id</th>
+          <th>Cliente</th>
+          <th>Fecha_inicio_de_servicio</th>
+          <th>Solucionado</th>
+        
+   
+       </tr>
+    </thead>
+    <tbody>
+    {% for s in soluciones %}
+       <tr>
+             <td>{{ s.id }}</td>
+             <td>{{ s.cliente }}</td>
+             <td>{{ s.fecha_inicio_de_servicio }}</td>
+             <td>{{ s.solucionado }}</td>
+             
+          
+       </tr>
+    {% endfor %}
+    </tbody>
+ </table>  
+{% endblock contenido %}
+    
+    

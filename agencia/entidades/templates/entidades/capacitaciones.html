@@ -1,0 +1,54 @@
+{% extends 'entidades/index.html' %}
+
+{% block titulo %}
+<h1 class="mb-5"> Capacitaciones </h1>  
+{% endblock titulo %}
+
+{% block contenido %}
+
+<table>
+   <tr>
+      <td width="200"><h2>Capacitaciones</h2></td>
+      <td>
+         <a
+         href="{% url 'capacitacionesForm' %}"
+         class="btn btn-primary btn-sm"
+         ><i class="fa fa-plus fa-lg" title="Crear"> </i>
+         </a>
+      </td>
+   </tr>
+</table>
+
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Id</th>
+          <th>Cliente</th>
+          <th>Tematica</th>
+          <th>Acciones</th>
+       </tr>
+    </thead>
+    <tbody>
+    {% for c in capacitaciones %}
+       <tr>
+             <td>{{ c.id }}</td>
+             <td>{{ c.cliente }}</td>
+             <td>{{ c.tematica }}</td>
+             <td>
+                  <a
+                     href="{% url 'capacitacionesUpdate' c.id %}"
+                     class="btn btn-primary"
+                     ><i class="fa fa-edit fa-sm" title="Edit Record"></i>
+                  </a>
+                  <a
+                  href="{% url 'capacitacionesDelete' c.id %}"
+                  class="btn btn-danger"
+                  ><i class="fa fa-trash fa-sm" title="Delete Record"></i>
+               </a>
+            </td>
+       </tr>
+    {% endfor %}
+    </tbody>
+ </table>
+
+{% endblock contenido %}

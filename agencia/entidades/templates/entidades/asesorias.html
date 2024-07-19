@@ -1,0 +1,36 @@
+{% extends 'entidades/index.html' %}
+
+
+{% block titulo %}
+<h1 class="mb-5"> Asesorias </h1>  
+{% endblock titulo %}
+
+
+{% block contenido %}
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Id</th>
+          <th>Cliente</th>
+          <th>Tematica</th>
+          <th>Correo_corporativo</th>
+        
+   
+       </tr>
+    </thead>
+    <tbody>
+    {% for a in asesorias %}
+       <tr>
+             <td>{{ a.id }}</td>
+             <td>{{ a.cliente }}</td>
+             <td>{{ a.tematica }}</td>
+             <td>{{ a.correo_corporativo }}</td>
+             
+          
+       </tr>
+    {% endfor %}
+    </tbody>
+ </table>
+
+{% endblock contenido %}
+    

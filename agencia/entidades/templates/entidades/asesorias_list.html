@@ -1,0 +1,50 @@
+{% extends 'entidades/index.html' %}
+
+{% block titulo %}
+<h1 class="mb-5"> Asesorias </h1>  
+{% endblock titulo %}
+
+{% block contenido %}
+
+<table>
+   <tr>
+      <td width="200"><h2>Asesorias</h2></td>
+      <td>
+         <a href="{% url 'asesoriasCreate' %}" class="btn btn-primary btn-sm">
+            <i class="fa fa-plus fa-lg" title="Crear"></i>
+         </a>
+      </td>
+   </tr>
+</table>
+
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Id</th>
+          <th>Cliente</th>
+          <th>Tematica</th>
+          <th>Correo corporativo</th>
+          <th>Acciones</th>
+       </tr>
+    </thead>
+    <tbody>
+    {% for a in asesorias_list %}
+       <tr>
+             <td>{{ a.id }}</td>
+             <td>{{ a.cliente }}</td>
+             <td>{{ a.tematica }}</td>
+             <td>{{ a.correo_corporativo }}</td>
+             <td>
+               <a href="{% url 'asesoriasUpdate' a.id %}" class="btn btn-primary">
+                  <i class="fa fa-edit fa-sm" title="Editar Registro"></i>
+               </a>
+               <a href="{% url 'asesoriasDelete' a.id %}" class="btn btn-danger">
+                  <i class="fa fa-trash fa-sm" title="Eliminar Registro"></i>
+               </a>
+            </td>
+       </tr>
+    {% endfor %}
+    </tbody>
+ </table>
+  
+{% endblock contenido %}
