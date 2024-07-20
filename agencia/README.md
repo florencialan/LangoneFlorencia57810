@@ -8,6 +8,8 @@ En este README, te proporcionamos información sobre cómo utilizar nuestra plat
 
 Te dejo un video que explica el funcionamiento de la web: https://drive.google.com/file/d/1MHOSWsRhC_uQBSR_9slePjm0p-KT-7Qm/view?usp=drive_link 
 
+Asimismo, te dejo el Caso de Test: https://docs.google.com/spreadsheets/d/1TwaoyvzI3QFa42keCeI7j0wep8ZFgiU3solZsBuNX0Q/edit?usp=sharing 
+
 ✅ Descripción del Proyecto
 
 El proyecto es la base para actualizar el sitio oficial de Greeslyn Max, una agencia de tecnología radicada en Argentina que presta servicios en el exterior. La plataforma gestiona información clave sobre capacitaciones, asesorías, gestiones y soluciones ofrecidas por la agencia.
