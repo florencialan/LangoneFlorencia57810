@@ -6,7 +6,7 @@ Bienvenido al proyecto base para la actualización del sitio web de Greeslyn Max
 
 En este README, te proporcionamos información sobre cómo utilizar nuestra plataforma y cómo contribuir al proyecto.
 
-Te dejo un video que explica el funcionamiento de la web: Video explicativo Greeslyn Max
+Te dejo un video que explica el funcionamiento de la web: https://drive.google.com/file/d/1MHOSWsRhC_uQBSR_9slePjm0p-KT-7Qm/view?usp=drive_link 
 
 ✅ Descripción del Proyecto
 
@@ -107,7 +107,8 @@ Si tenés alguna pregunta o necesitas ayuda, por favor, no dudes en contactarnos
 
 ✅ Documentación Adicional
 
-Para una guía más completa sobre la configuración y características del proyecto, visita nuestra documentación en línea.
+Para una guía más completa sobre la configuración y características del proyecto, envia un correo
+a marketing-ecodigital@greeslynmax.com
 
 ✅ Testeo
 
@@ -115,12 +116,9 @@ Para ejecutar las pruebas del proyecto, usa el siguiente comando:
 
 python manage.py test
 
-Preguntas Frecuentes
-
-- ¿Cómo configuro el entorno de producción? Consulta nuestra guía de configuración para producción.
-- ¿Qué hago si encuentro un bug? Por favor, abrí un issue en nuestro repositorio de GitHub.
 
 ✅ Actualizaciones y Mantenimiento
 
-Para estar al tanto de las últimas actualizaciones y cambios en el proyecto, seguime en Github.
+Para estar al tanto de las últimas actualizaciones y cambios en el proyecto, seguime en Github. 
+(https://github.com/florencialan)
 
