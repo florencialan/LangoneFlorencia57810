@@ -2,6 +2,12 @@ Greeslyn Max - Digital Agency Services
 
 Alumna: Florencia Langone - Comisión 57810
 
+Los datos de admin para ingresar en el proyecto son
+
+USUARIO: anton
+CLAVE: Coder2025! (con C mayuscula)
+
+
 Bienvenido al proyecto base para la actualización del sitio web de Greeslyn Max, un proyecto armado con Python y Django para crear y gestionar servicios de una agencia digital de tecnología. Este proyecto está diseñado para proporcionar una plataforma robusta y flexible para la administración de servicios empresariales.
 
 En este README, te proporcionamos información sobre cómo utilizar nuestra plataforma y cómo contribuir al proyecto.
